@@ -20,7 +20,7 @@ case_dir = "D:\\smctest\\automation_test_framework\\testsuites"
 
 suite = unittest.TestLoader().discover(case_dir)
 
-
+#让git拉取代码
 if __name__=='__main__':
     #执行用例
     runner = HTMLTestRunner.HTMLTestReportCN(stream=fp,title=u'数码仓自动化测试报告',description=u'测试情况：')
