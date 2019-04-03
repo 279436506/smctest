@@ -26,9 +26,9 @@ class Login(unittest.TestCase):
         homepage = HomePage(self.driver)
         homepage.type_u('LZB04')  # 调用页面对象中的方法
         homepage.type_p('111111')
-        time.sleep(1)
-        vc = input("please input verification:")
-        homepage.type_v(vc)
+        time.sleep(3)
+        # vc = input("please input verification:")
+        # homepage.type_v(vc)
         time.sleep(5)
         homepage.click_sub()
         # homepage.get_windows_img()  # 调用基类截图方法
