@@ -1,8 +1,7 @@
 # coding=utf-8
 import time
 import unittest
-from framework.browser_engine import BrowserEngine
-from pageobjects.login_page import HomePage
+from automation_test_framework.pageobjects.login_page import HomePage
 
 
 class Login(unittest.TestCase):
