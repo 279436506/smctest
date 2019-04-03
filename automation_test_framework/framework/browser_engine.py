@@ -3,7 +3,7 @@
 import os.path
 from configparser import ConfigParser
 from selenium import webdriver
-from framework.logger import Logger
+from automation_test_framework.framework.logger import Logger
 
 logger = Logger(logger="BrowserEngine").getlog()
 
