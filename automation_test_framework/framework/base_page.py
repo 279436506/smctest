@@ -2,7 +2,7 @@
 import time
 from selenium.common.exceptions import NoSuchElementException
 import os.path
-from framework.logger import Logger
+from automation_test_framework.framework.logger import Logger
 from selenium import webdriver
 
 

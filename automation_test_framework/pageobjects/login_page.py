@@ -1,5 +1,5 @@
 # coding=utf-8
-from framework.base_page import BasePage
+from automation_test_framework.framework.base_page import BasePage
 
 
 class HomePage(BasePage):

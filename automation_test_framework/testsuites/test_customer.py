@@ -1,9 +1,9 @@
 # coding=utf-8
 import time
 import unittest
-from framework.browser_engine import BrowserEngine
-from pageobjects.customer_page import CustomerPage
-from framework.login import Login
+from automation_test_framework.framework.browser_engine import BrowserEngine
+from automation_test_framework.pageobjects.customer_page import CustomerPage
+from automation_test_framework.framework.login import Login
 
 
 

@@ -1,0 +1,17 @@
+2019-04-03 14:08:09,477 - BrowserEngine - INFO - You had select Firefox browser.
+2019-04-03 14:08:09,477 - BrowserEngine - INFO - The test server url is: http://10.0.60.23:8082/jwell-km-client/home/login
+2019-04-03 14:08:17,656 - BrowserEngine - INFO - Starting firefox browser.
+2019-04-03 14:08:19,263 - BrowserEngine - INFO - Open url: http://10.0.60.23:8082/jwell-km-client/home/login
+2019-04-03 14:08:19,531 - BrowserEngine - INFO - Maximize the current window.
+2019-04-03 14:08:19,534 - BrowserEngine - INFO - Set implicitly wait 10 seconds.
+2019-04-03 14:08:19,553 - BasePage - INFO - Had find the element '  ' successful by id via value: userName 
+2019-04-03 14:08:19,581 - BasePage - INFO - Had type ' LZB04 ' in inputBox
+2019-04-03 14:08:19,601 - BasePage - INFO - Had find the element '  ' successful by id via value: password 
+2019-04-03 14:08:19,646 - BasePage - INFO - Had type ' 111111 ' in inputBox
+2019-04-03 14:08:31,203 - BasePage - INFO - Had find the element '  ' successful by id via value: verifyCode 
+2019-04-03 14:08:31,230 - BasePage - INFO - Had type ' 7225 ' in inputBox
+2019-04-03 14:08:36,243 - BasePage - INFO - Had find the element '  ' successful by id via value: button 
+2019-04-03 14:08:41,393 - BasePage - INFO - Had find the element ' 合同 ' successful by xpath via value: //*[@id="sidebar"]/ul/li[2]/a 
+2019-04-03 14:08:42,660 - BasePage - INFO - Had find the element ' 客户资料 ' successful by xpath via value: //*[@id="sidebar"]/ul/li[2]/ul/li[1]/a 
+2019-04-03 14:08:45,912 - BasePage - INFO - Had find the element ' 添加
+  ' successful by xpath via value: /html/body/div[1]/div[4]/div/div/div/div[1]/div/form/div/div[2]/div/a[2]/span 
