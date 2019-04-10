@@ -15,7 +15,7 @@ print(report_path)
 now = time.strftime("%Y-%m-%d-%H_%M_%S", time.localtime(time.time()))
 
 # 设置报告名称格式
-HtmlFile = report_path + now + ".html"
+HtmlFile = "result.html"
 fp = open(HtmlFile,"wb")
 case_dir = "D:\\smctest\\automation_test_framework\\testsuites"
 suite = unittest.TestLoader().discover(case_dir)
