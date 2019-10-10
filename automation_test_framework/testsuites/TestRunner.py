@@ -5,7 +5,7 @@ import time
 import sys
 import HTMLTestRunner
 import io
-sys.path.append('D:\\smctest')
+sys.path.append('E:\\smctest')
 
 
 # 设置报告文件保存路径

@@ -30,7 +30,7 @@ class BrowserEngine(object):
         logger.info("The test server url is: %s" % url)
 
         if browser == "Firefox":
-            driver = webdriver.Firefox()
+            driver = webdriver.Firefox(self.firefox_driver_path)
             logger.info("Starting firefox browser.")
         elif browser == "Chrome":
             driver = webdriver.Chrome(self.chrome_driver_path)

@@ -29,37 +29,6 @@ class Addcustomer(unittest.TestCase):
         #登录系统
         customerpage = CustomerPage(self.driver)
         Login.login(self)
-        #添加联系人
-        customerpage.click_hetong()
-        time.sleep(1)
-        customerpage.click_customer()
-        time.sleep(1)
-        self.driver.switch_to_frame(0)
-        time.sleep(2)
-        customerpage.click_addcus()
-        time.sleep(1)
-        customerpage.click_custype()
-        time.sleep(1)
-        customerpage.type_cusname('自动化测试用户')
-        time.sleep(1)
-        customerpage.click_save()
-        time.sleep(2)
-        customerpage.type_search()
-        time.sleep(1)
-        customerpage.click_query()
-        time.sleep(5)
-        assert customerpage.duanyan() == u'自动化测试用户'
-        #删除联系人
-        customerpage.click_choose()
-        time.sleep(1)
-        customerpage.click_delete()
-        time.sleep(2)
-        customerpage.click_sure()
-        time.sleep(1)
-        customerpage.type_search()
-        time.sleep(1)
-        customerpage.click_query()
-        time.sleep(5)
         try:
             assert customerpage.duanyan() == ''
             print("test pass.")

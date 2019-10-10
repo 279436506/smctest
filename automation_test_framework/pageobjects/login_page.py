@@ -3,10 +3,10 @@ from automation_test_framework.framework.base_page import BasePage
 
 
 class HomePage(BasePage):
-    userName = "id=>userName"
-    passWord = "id=>password"
+    userName = "id=>account-input"
+    passWord = "id=>password-input"
     verifyCode = "id=>verifyCode"
-    submit = "id=>button"
+    submit = "id=>account-login-submit"
 
     def type_u(self, username):
         self.type(self.userName, username)
